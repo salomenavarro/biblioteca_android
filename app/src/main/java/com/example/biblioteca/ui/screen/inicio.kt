@@ -26,6 +26,14 @@ fun Inicio(navController: NavHostController) {
             ) {
                 Text(text = "Ver Libros")
             }
+
+            Button(
+                onClick = {
+                    navController.navigate(route = "misReservas")
+                }
+            ) {
+                Text(text = "Mis Reservas")
+            }
         }
     }
 }
